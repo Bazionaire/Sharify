@@ -123,7 +123,7 @@ require_once("HomeHeader.php");
 <p>
                           <br/><br/>
                           <h2>Coursework 1</h2>
-    <h2>1.0 This Application</h2>
+                          <h2>1.0 This Application</h2>
                           This application is the supply to the demand for a research paper sharing application. The research paper sharing application will have the ability to upload papers, allocate papers, store papers, review papers, monitor and track papers, and to share project papers among a group of people. Due to the demand for such an application, an application which satisfies the need will be delivered in this project.
                           The application will have 3 user roles:<br>
                           Administrator<br>
