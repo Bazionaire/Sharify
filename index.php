@@ -74,7 +74,7 @@ function loginFunction($username,$password)
 require_once("Header.php");
 require_once("HomeHeader.php");
 ?>
-<section id="header" xmlns="http://www.w3.org/1999/html">
+<section>
 
       <div class="container-fluid">
             <div class="col-sm-3">
