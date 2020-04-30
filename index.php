@@ -11,7 +11,6 @@ $content = "";
 //check if cookie is set
 if (isset($_COOKIE['username']) && $_COOKIE['password'])
 {
-    
     loginFunction($_COOKIE['username'],$_COOKIE['password']);
 }
 //Login form functionality
@@ -68,6 +67,8 @@ function loginFunction($username,$password)
         {
             $status = $result["status"];
             $msg = $result["message"];
+           $invgin = "Incorrect Login Credentials or Credentials do not match";
+           echo $invgin;
         }
 }//end of loginFunction
 require_once("Header.php");
@@ -76,21 +77,6 @@ require_once("HomeHeader.php");
 <section id="header" xmlns="http://www.w3.org/1999/html">
 
       <div class="container-fluid">
-
-<!--        <div class="row">-->
-<!--            <div class="col-xs-12 col-sm-7 hidden-xs">-->
-<!--                <br/>-->
-<!--                <h1>Welcome to my project<br/><small></small></h1>-->
-<!---->
-<!--                <img src="images/logo.png" style='width:30%;'/>-->
-<!---->
-<!--                <br/><br/>-->
-<!--                This project is the design,  identification, review, monitoring and tracking of research papers among group members. Research activities; report writing, review, editing and other associated task can be daunting particularly with the need to monitor and track the editorial progress of a number of papers within a limited span of time.-->
-<!--                <br/><br/>-->
-<!---->
-<!---->
-<!---->
-<!--            </div>-->
             <div class="col-sm-3">
                 <br/><br/><br/><br/><br/>
                 <h1> Sign In</h1>
@@ -119,6 +105,7 @@ require_once("HomeHeader.php");
                       <div class="text-left">
                           <input type="checkbox" name="remember_me"> Remember me &nbsp;&nbsp;&nbsp;
                           <input type="submit" name="submitForm" class="btn btn-default" value="Login ">
+
                       </div>
                     </form>
             <!-- end of Login form //-->
