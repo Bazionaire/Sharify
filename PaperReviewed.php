@@ -55,7 +55,7 @@ ini_set('display_errors', 1);
               <div class="row" >
                   <div class="col-xs-4" style='background-color: #f1f1f1;border-radius:5px;padding-top:10px;padding-bottom:15px;'>
                         <?php 
-                            echo "<strong><big>Project</big></strong><br/><i class='fa fa-folder-o'></i> <a href='ManageProject.php'>" .$row['name']."</a><br/>";
+                            echo "<strong><big>Project</big></strong><br/><i class='fa fa-folder-o'></i> <a href='#'>" .$row['name']."</a><br/>";
                             echo "<small>Submitted on ".$datesubmitted."</small><br/>";
                         ?>
                         <br/>
