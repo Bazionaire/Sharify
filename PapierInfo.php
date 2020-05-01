@@ -2,7 +2,7 @@
 
 if (!isset($_GET['pid']) || $_GET['pid']=='')
 {
-  header("location: Submissions.php");
+  header("location: Submission.php");
 }
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
@@ -94,7 +94,7 @@ ini_set('display_errors', 1);
                   <div class="col-xs-12">
                       <strong>Paper Title</strong>
                         <?php 
-                            echo "<br/><i class='fa fa-file-o'></i> <a href='Submissions.php'>" .$paperTitle."</a><br/><br/>";
+                            echo "<br/><i class='fa fa-file-o'></i> <a href='Submission.php'>" .$paperTitle."</a><br/><br/>";
                         ?>
                   </div>
                   <div class="col-xs-12">

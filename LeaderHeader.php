@@ -35,7 +35,7 @@
                   <span class="fa fa-calendar"></span><strong> Papers </strong><b class="caret"></b>
               </a>
                   <ul class="dropdown-menu">
-                      <li><a style="padding-top:8px;padding-bottom:8px;color:#000000;" href="Submissions.php">Submissions</a>
+                      <li><a style="padding-top:8px;padding-bottom:8px;color:#000000;" href="Submission.php">Submissions</a>
                       <li><a style="padding-top:8px;padding-bottom:8px;color:#000000;" href="PapersInReview.php"> In Review</a></li>
                   </ul>
             </li>
