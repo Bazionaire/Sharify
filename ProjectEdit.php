@@ -71,7 +71,7 @@ ini_set('display_errors', 1);
               <div class="form-group row">
                   <div class="col-xs-12 col-sm-2"></div>
                   <div class="col-xs-12 col-sm-10">
-                      <input  class="btn btn-primary" type="submit" name="submitForm" value="Create"/>
+                      <input  class="btn btn-primary" type="submit" name="submitForm" value="Edit"/>
                   </div>
               </div>
               </form>

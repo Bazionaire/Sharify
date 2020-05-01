@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="56dea028-7b7b-4b37-a67c-dcde495c5e93" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/initial_commit.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/initial_committt.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignUserProject.php" beforeDir="false" afterPath="$PROJECT_DIR$/AssignUserProject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectEdit.php" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEdit.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +84,7 @@
       <workItem from="1587964599470" duration="2364000" />
       <workItem from="1587967037788" duration="276000" />
       <workItem from="1587996921074" duration="6103000" />
-      <workItem from="1588269880606" duration="1586000" />
+      <workItem from="1588269880606" duration="3307000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1587966255020</created>
@@ -129,7 +128,28 @@
       <option name="project" value="LOCAL" />
       <updated>1587996946331</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="home page changes">
+      <created>1588287778487</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1588287778487</updated>
+    </task>
+    <task id="LOCAL-00008" summary="home page changes">
+      <created>1588287896602</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588287896602</updated>
+    </task>
+    <task id="LOCAL-00009" summary="home page changes">
+      <created>1588287969801</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1588287969801</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +159,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="initial committt" />
     <MESSAGE value="xml and iml" />
-    <option name="LAST_COMMIT_MESSAGE" value="xml and iml" />
+    <MESSAGE value="home page changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="home page changes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="183" key="#Deployment" timestamp="1587966580453">
@@ -150,10 +171,10 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2425" y="214" key="#Other_File_Types/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1587964738369" />
-    <state x="585" y="121" key="CommitChangelistDialog2" timestamp="1588287896192">
+    <state x="585" y="121" key="CommitChangelistDialog2" timestamp="1588287969402">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="585" y="121" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1588287896192" />
+    <state x="585" y="121" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1588287969402" />
     <state x="740" y="266" key="FileChooserDialogImpl" timestamp="1588269905110">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -182,18 +203,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="167" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1587965768636" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1588287898403">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1588287972158">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1588287898403" />
-    <state x="656" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1588269881953">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1588287972158" />
+    <state x="656" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1588304491405">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="656" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1588269881953" />
-    <state x="656" y="257" width="607" height="536" key="find.popup" timestamp="1588269943383">
+    <state x="656" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1588304491405" />
+    <state x="656" y="257" width="607" height="536" key="find.popup" timestamp="1588304648001">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="656" y="257" width="607" height="536" key="find.popup/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1588269943383" />
+    <state x="656" y="257" width="607" height="536" key="find.popup/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1588304648001" />
     <state x="2104" y="243" width="737" height="606" key="find.popup/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1588013655222" />
     <state x="569" y="260" width="672" height="677" key="run.anything.popup" timestamp="1587965774438">
       <screen x="0" y="0" width="1920" height="1050" />

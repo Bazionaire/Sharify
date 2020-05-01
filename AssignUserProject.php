@@ -101,7 +101,7 @@ ini_set('display_errors', 1);
                   
                   <div class="col-xs-2 col-sm-2">&nbsp;</div>
                   <div class="col-xs-10 col-sm-10">
-                      <input  class="btn btn-primary" type="submit" name="submitForm" value="Create"/>
+                      <input  class="btn btn-primary" type="submit" name="submitForm" value="Assign"/>
                   </div>
               </div>
               </form>
